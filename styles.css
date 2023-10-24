@@ -1,0 +1,248 @@
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size:18px;
+}
+body {
+    color: #F9FAF8;
+    background:black;
+    margin:0px;
+}
+.content {
+    font-family: 'Roboto';
+    font-weight:lighter;
+    display:flex;
+    flex:1;
+    height:100%;
+    flex-direction:column;
+    margin-left: 198px;
+    margin-right: 198px;
+}
+
+/*  HEADER  */
+
+.header {
+    display:flex;
+    background: #1F2937;
+    flex-direction: column;
+    padding-left: 210px;
+    padding-right: 210px;
+    padding-top: 20px;
+    padding-bottom:125px;
+    gap: 120px;
+}
+
+.headerlogo {
+    display:flex;
+    font-size:24px;
+    font-weight:800;
+    color:#F9FAF8;
+    justify-content: start;
+    flex:1;
+    gap:40px;
+}
+.headertitle
+{
+    font-size:48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    padding-top:2px;
+}
+.headerintro {
+    align-content:center;
+    display:flex;
+    justify-content:start;
+    flex-wrap:wrap;
+    flex-direction:column;
+    flex:1;
+    font-size: 18px; 
+    color: #E5E7EB;
+
+}
+.headerbutton {
+    background: #3882F6;
+    border:0px;
+    font-size:18px;
+    color: #E5E7EB;
+    font-family: 'Roboto';
+    font-weight: 600;
+    border-radius: 8px;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    width: 130px;
+    height:35px;
+    margin-top:16px;
+}
+.headerlinks {
+    display:flex;
+    gap: 24px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.header_up, .header_down {
+    justify-content: space-between;
+    display:flex;
+    flex:1;
+}
+.header_down {
+    gap:40px;
+}
+
+/* some random information */
+
+.random {
+    display:flex;
+    background:white;
+    flex-direction:column;
+    padding-bottom:200px;
+}
+.randomtitle {
+    align-items:center;
+    justify-content: center;
+    text-align:center;
+    font-size:36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 45px;
+}
+
+.illustrations {
+    display: flex;
+    color:black;
+    justify-content: center;
+    gap: 20px;
+    margin-left:24px;
+}
+.illustration {
+    height:200px;
+    width:200px;
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+
+.illtext {
+    display:flex;
+    color: rgb(95, 95, 95);
+    font-size:18px;
+    flex-direction: column;
+    text-align:center;
+    flex: 0 1 164px;
+}
+.illustrationb {
+    width: 164px;
+    height:164px;
+    border:4px solid #3882F6;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-top:5px;
+}
+
+/*  Quote */
+
+.quote {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background: #E5E7EB;
+    flex:1;
+    color:black;
+
+    padding: 100px 150px;
+}
+
+.quotext {
+    display:flex;
+    flex-wrap: wrap;
+    font-size: 36px;
+    color: #1F2937;
+    padding-left: 190px;
+    padding-right:150px;
+    font-family: 'Roboto'; 
+    font-style: italic;
+}
+.quosignature {
+    display:flex;
+    align-self:end;
+    margin-right:190px;
+    font-size:24px;
+    font-weight:600;
+}
+
+/* Sign up */
+
+.signup {
+    display:flex;
+    background: white;
+    padding: 100px;
+    justify-content:center;
+}
+.signupcontent {
+    display:flex;
+    background:#3882F6;
+    padding:25px 0px;
+    margin: 0px 120px;
+    align-items:center;
+    justify-content: center;
+    gap:10px;
+    flex: 1 0 0;
+    height:100px;
+    border-radius: 8px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left: 108px;
+    margin-right:108px;
+
+}
+.signupcontent .text {
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    flex-wrap:wrap;
+    padding: 0px 100px;
+    margin-left:10px;
+}
+.signupcontent .text .title {
+    display:flex;
+    font-weight:bold;
+    font-size:24px;
+}
+.signupcontent .text .content {
+    display:flex;
+    flex-wrap:wrap;
+    font-size:18px;
+    margin:0px;
+}
+
+.signupcontent .headerbutton {
+    display:flex;
+    border-color:white;
+    border:2px;
+    margin:0px;
+    border-style: solid;
+    align-content:start;
+    margin-right:110px;
+    height:36px;
+    margin-top:2px;
+}
+
+/* footer */
+
+.footer {
+    display:flex;
+    background: #1F2937;
+    align-content:center;
+    justify-content:center;
+    padding:40px;
+    font-size:18px;
+}
+.footertext {
+    display: flex;
+    justify-content:space-between;
+    font-stretch:extra-expanded;
+    gap:8px;
+    font-weight:100;
+}
